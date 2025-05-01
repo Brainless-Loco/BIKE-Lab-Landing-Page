@@ -9,6 +9,9 @@ body {
     background-attachment: fixed;
     background-color: rgb(239, 239, 239);
 }
+.glow-text {
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 8px #0c2461;
+  }
 
 .animate-float {
     animation: float 3s ease-in-out infinite;
