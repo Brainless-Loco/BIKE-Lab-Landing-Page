@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    scroll-behavior: smooth;
+}
+
+.parallax {
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-color: rgb(239, 239, 239);
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
